@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(249, 249, 246); /* Cambiar a amarillo */
+  }
+  
+  .instrumento {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .instrumento img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .instrumento .descripcion {
+    flex: 1;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: rgb(255, 255, 0); /* Cambiar a amarillo */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+  }
+  
+  .logo-container {
+    max-width: 200px; /* Ancho máximo del contenedor del logo */
+  }
+
+  .logo {
+    width: 100%; /* Ajusta el ancho del logo al contenedor */
+    height: auto; /* Mantén la proporción de aspecto */
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .search-input {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background-color: #3483FA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 10px;
+  }
